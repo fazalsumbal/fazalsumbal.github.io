@@ -6,14 +6,14 @@ External stylesheet for my microsite.
   Reset
   --------------*/
            *{
-               margin: 30px;
+               margin: 20px 0px 20px 0px;
                padding: 0px;
                box-sizing: border-box;
            }
 
 
     body {
-        background-image: url(../img/1.jpg);
+        background-image: url(../img/2.jpg);
         background-repeat: no-repeat;
         background-color: #cccccc;
         background-size: cover;
@@ -50,8 +50,18 @@ External stylesheet for my microsite.
 layout-Header
 --------------**/
 header {
-    height: 20vh;
-    font-size: 30px;
+    height: 10vh;
+    font-size: 2.2em;
+    
+
+}
+
+header p {
+color:aliceblue;
+background-color: rgb(85,107,47);
+margin-right: 30vw;
+margin-left: 0vw;
+padding: 0.2em;
 }
 
  /**-------------
@@ -59,8 +69,9 @@ Layout-Content
 --------------**/
 main{
 
-    height: 40vh;
-    font-size: 20px;
+    height: 60vh;
+    font-size: 2em;
+    padding: 50px 100px 50px 80px;
     }
 
 body > div {
@@ -80,15 +91,20 @@ Layout-Footer
 footer {
     
     height: 10vh;
-    font-size: 2em;
+    font-size: 2.2em;
     
    
     
     }
 
 footer p {
-
-    margin-left: 70vw;
+    color:aliceblue;
+    background-color: rgb(85,107,47);
+    text-align: end;
+    margin-right:0vw;
+    margin-left: 15vw;
+    padding: 0.2em;
+ 
 }
 
   /*--------------
