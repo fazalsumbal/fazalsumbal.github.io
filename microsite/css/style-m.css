@@ -17,6 +17,7 @@ External stylesheet for my microsite.
         background-color: #cccccc;
         background-size: cover;
         background-position: right;
+
     }
 
 
@@ -48,8 +49,8 @@ External stylesheet for my microsite.
 layout-Header
 --------------**/
 header {
-    height: 10%vh;
-    font-size: 20px;
+    height: 30vh;
+    font-size: 30px;
 }
 
  /**-------------
@@ -67,8 +68,9 @@ Layout-Footer
 --------------**/
 
 Footer {
-    height: 10%vh;
+    height: 10vh;
     font-size: 20px;
+    text-align: right;
 }
 
   /*--------------
