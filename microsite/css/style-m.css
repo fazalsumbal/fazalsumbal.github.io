@@ -6,17 +6,19 @@ External stylesheet for my microsite.
   Reset
   --------------*/
            *{
-               margin: 0;
-               padding: 0;
+               margin: 30px;
+               padding: 0px;
+               box-sizing: border-box;
            }
 
 
     body {
         background-image: url(../img/1.jpg);
-        background-repeat: repeat;
+        background-repeat: no-repeat;
         background-color: #cccccc;
         background-size: cover;
         background-position: right;
+        background-attachment: fixed;
 
     }
 
@@ -33,15 +35,14 @@ External stylesheet for my microsite.
 /*--------------
   Layout
   --------------*/
-           div {
-               padding: 30px;
-           }
+
            
        
            
            h1, h2, h3 {
                display: flex;
                width: 100%;
+               height: auto;
                font-family: sans-serif;
            }
 
@@ -49,7 +50,7 @@ External stylesheet for my microsite.
 layout-Header
 --------------**/
 header {
-    height: 30vh;
+    height: 20vh;
     font-size: 30px;
 }
 
@@ -58,19 +59,36 @@ Layout-Content
 --------------**/
 main{
 
-    height: 80vh;
+    height: 40vh;
     font-size: 20px;
     }
 
+body > div {
+    transition: all 10s ease;
+    background: none;
+    position: relative;
+    width: 150px;
+    height: 50px;
+    
+  
+}
 
  /**-------------
 Layout-Footer
 --------------**/
 
-Footer {
+footer {
+    
     height: 10vh;
-    font-size: 20px;
-    text-align: right;
+    font-size: 2em;
+    
+   
+    
+    }
+
+footer p {
+
+    margin-left: 70vw;
 }
 
   /*--------------
