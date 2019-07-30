@@ -35,15 +35,13 @@ External stylesheet for my microsite.
 /*--------------
   Layout
   --------------*/
-
            
-       
-           
-           h1, h2, h3 {
-               display: flex;
+           h1, h2 {
+              
                width: 100%;
                height: auto;
                font-family: sans-serif;
+               color: aliceblue;
            }
 
  /**-------------
@@ -51,8 +49,7 @@ layout-Header
 --------------**/
 header {
     height: 10vh;
-    font-size: 2.2em;
-    
+    font-size: 2.2em;   
 
 }
 
@@ -80,8 +77,7 @@ body > div {
     position: relative;
     width: 150px;
     height: 50px;
-    
-  
+     
 }
 
  /**-------------
@@ -92,8 +88,6 @@ footer {
     
     height: 10vh;
     font-size: 2.2em;
-    
-   
     
     }
 
