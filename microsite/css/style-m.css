@@ -42,10 +42,8 @@ External stylesheet for my microsite.
                height: auto;
                font-family: sans-serif;
                color: aliceblue;
-               background-color: darkgoldenrod;
-               
                animation-name: ani;
-               animation-duration: 4s;
+               animation-duration: 3s;
            }
 
  /**-------------
@@ -106,10 +104,10 @@ footer p {
 }
 
 @keyframes ani{
-    from {color: aliceblue;}
-    to  {color: red;}
+    from {color: rgb(184,134,11);}
+    to  {color: rgb(85,107,47);}
 }
 
   /*--------------
-  Tropogrophy
+  Tropogrophybackground-color: darkgoldenrod;
   --------------*/
