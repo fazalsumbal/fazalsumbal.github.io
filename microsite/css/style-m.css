@@ -38,10 +38,14 @@ External stylesheet for my microsite.
            
            h1, h2 {
               
-               width: 100%;
+               width: 45%;
                height: auto;
                font-family: sans-serif;
                color: aliceblue;
+               background-color: darkgoldenrod;
+               
+               animation-name: ani;
+               animation-duration: 4s;
            }
 
  /**-------------
@@ -99,6 +103,11 @@ footer p {
     margin-left: 15vw;
     padding: 0.2em;
  
+}
+
+@keyframes ani{
+    from {color: aliceblue;}
+    to  {color: red;}
 }
 
   /*--------------
