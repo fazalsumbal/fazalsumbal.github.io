@@ -8,23 +8,16 @@ general styles for final projects.
    --------------*/
            *{
                    margin: 0;
-                   margin: 20px 0px 20px 0px;
-                   padding: 0;
-                   box-sizing: border-box;
-           }
-
-
-
-
-  
-
-    }
+                   margin: 0px 0px 0px 0px;
+                   padding: 5px;
+                  
 
 
  /*--------------
   Color & style
   --------------*/
-         
+
+
 
  /*--------------
   Navigation
@@ -39,6 +32,17 @@ general styles for final projects.
 layout-Header
 --------------**/
 
+#myHeader {
+  background-color: darkblue;
+  color: white;
+  height: 30px;
+  padding: 40px;
+  text-align: center;
+display: block;
+}
+
+
+              
 
  /**-------------
 Layout-Content
