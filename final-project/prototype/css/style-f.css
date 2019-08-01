@@ -7,10 +7,10 @@ general styles for final projects.
   Reset
    --------------*/
            *{
-                   margin: 0;
+                padding: 0;
                    margin: 0px 0px 0px 0px;
-                   padding: 5px;
-                  
+                   
+}
 
 
  /*--------------
@@ -26,34 +26,52 @@ general styles for final projects.
 /*--------------
   Layout
   --------------*/
-           
+   
+h1 {
+    padding: 80px; 
+}
+h2 {
+    
+}
 
  /**-------------
 layout-Header
 --------------**/
 
-#myHeader {
+#my-header {
   background-color: darkblue;
   color: white;
-  height: 30px;
-  padding: 40px;
+  height: 15vh;
   text-align: center;
-display: block;
+
 }
-
-
               
 
  /**-------------
 Layout-Content
 --------------**/
 
+               main{
+                   height: 75vh;
+               }
+              .profile  {
+                   height: 20vh;
+                   background-color: blue;
+                    color: white;
+                  margin: 20px;
+                  padding: 20px;
+                  
+               }              
 
  /**-------------
 Layout-Footer
 --------------**/
-
-
+#my-footer {
+  background-color: darkblue;
+  color: white;
+  height: 5vh;
+  text-align: left;
+ }   
 /*--------------
  
 --------------**/
