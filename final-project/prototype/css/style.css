@@ -1,0 +1,218 @@
+ /**-------------
+general styles for final projects.
+ --------------*/
+
+
+  /**-------------
+  Reset
+   --------------*/
+* {
+    padding: 0;
+    margin: 0;
+                   
+}
+
+body {
+    background-color: red;
+}
+
+#desktop-nav {
+    display: none;
+}
+
+
+ /*--------------
+  Color & style
+  --------------*/
+
+ /*--------------
+ Navigation 
+  --------------*/
+nav ul{
+    list-style-type: none;
+}
+
+nav a {
+    color: rgb(240,240,240);
+    background-color: rgb(205,228,10);
+}
+
+nav a:hover {
+    color: white;
+    background-color: rgb(205,228,10);
+}
+ /*--------------
+  Mobile Navigation Layout
+  --------------*/
+
+body, section {
+    padding-top: 13vw;
+}
+
+article, p {
+    margin: 1em 0;
+}
+
+
+#desktop-nav ul, h1, h2, h3, p {
+    padding: 0 20px;
+}
+ /*--------------
+  Mobile Navigation
+  --------------*/
+
+#burger-icon {
+    margin: 0 20px;
+}
+
+
+#burger-icon div {
+    width: 30px;
+    height:5px;
+    border-radius: 2px;
+    background-color: darkblue;
+    margin: 3px 0 0 0;   
+}
+
+#burger-icon:hover div {
+    background-color: rgb(160,170,180);
+}
+
+#burger-icon:hover {
+cursor: pointer;
+    }
+
+#mobile-nav ul {
+    margin-top: 11px;
+}
+
+#mobile-nav ul li {
+    margin-top: 1px;
+}
+
+#mobile-nav ul li a {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+#mobile-nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 35px;
+    padding-top: 5px;
+    overflow: hidden;
+    background-color: rgba(230,240,240,0.8);
+}
+/*--------------
+  Desktop Navigation Layout
+  --------------*/
+   
+#desktop-nav {
+    position: fixed;
+    top:  0;
+}
+
+#desktop-nav ul {
+    display: flex;
+}
+
+#desktop-nav ul li a {
+    padding: 3px 5px;
+    margin right: 2px;
+}
+
+ /**-------------
+layout-Header
+--------------**/
+
+#my-header {
+    font-family: 'Farro', sans-serif;
+    font-weight: 700;
+    background-color: rgb(33,35,49);
+    color: white;
+    height: 20vh;
+    text-align: center;
+    padding: 10px;
+
+}
+              
+
+ /**-------------
+Layout-Content
+--------------**/
+ 
+
+    
+    
+ body {
+    font-family: 'Source Sans Pro', sans-serif; 
+ }
+
+
+ p { 
+    
+     height: 15vh;
+     margin: 20px;
+     font-size: 1.3em;
+     font-weight: 400;
+     text-align: justify;
+
+ }
+
+ h2  {
+    height: 5vh;
+    margin: 20px;
+    padding: 3.5px;
+    line-height: 5vh;
+    font-size: 1.5em;
+    font-weight: 400;
+    background-color: rgb(33,35,49);
+    color: white;
+                  
+}              
+
+ /**-------------
+Layout-Footer
+--------------**/
+#my-footer {
+  background-color: rgb(33,35,49);
+  color: white;
+  height: 20vh;
+  text-align: left;
+  padding-top: 2vh;
+font-weight: 500;
+  
+ }   
+
+/*--------------
+Media Query
+--------------**/
+
+@media screen only and (min-width 600px) {
+    
+    #mobile-nav {
+        display: none;
+    }
+    
+    #desktop-nav {
+        display: block;
+    }
+
+    body,
+    section {
+        padding-top: 4vw;
+    }
+    
+    #desktop-nav ul, h1,h2,h3, p{
+        
+        padding: 0 10vw;
+    }
+    
+}
+
+/*--------------
+--------------**/
+

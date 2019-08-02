@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> final project </title>
+        
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,300i,400,400i&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Farro:400,700&display=swap" rel="stylesheet">
+
+          <style>
+       
+           </style>        
+             
+            <script>
+                var minHeight = 35;
+                var maxHeight = 195;
+                
+                
+                function toggleMobileNav() {
+                var x = document.getElementById("mobile-nav");
+                if (x.style.height === maxHeight + "px") {
+                    x.style.height = minHeight + "px";
+                    x.style.backgroundColor = "red";
+                } else {
+                    x.style.height = maxHeight + "px";
+                    x.style.backgroundColor = "green";
+                }   
+                }
+                
+                function hideMobileNav() {
+                    var y =document.getElementById("mobile-nav")y.style.height = minHeight + "px";
+                }
+                
+
+                
+            </script>
+    </head>
+    
+    <body> 
+        
+          
+         <header>
+          <h1 id="my-header">Let me introduce myself
+          <br> I'M SUMBAL</h1>
+          
+           <nav id="mobile-nav">
+                <div id="burger-icon" onclick="toggleMobileNav()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                
+                 <ul>
+                 <li><a href="#" onclick="hideMobileNav()">Top</a></li>
+                 <li><a href="#aboutme" onclick="hideMobileNav()">About me</a></li>
+                 <li><a href="#professionalexperience" onclick="hideMobileNav()">Professional Experience</a></li>
+                 <li><a href="#skills" onclick="hideMobileNav()">Skills</a></li>
+                 </ul>
+            </nav>
+               
+            <nav id="desktop-nav">
+                <ul>
+                    <li><a href="#">Top</a></li>
+                    <li><a href="#aboutme">About me</a></li>
+                    <li><a href="#professionalexperience">Professional Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                </ul>
+            </nav>
+        </header>  
+      
+        <main>
+             
+                
+               <section id="aboutme">
+                <article>
+          
+                <h2>About Me</h2>
+               <p>I am born and raised in Pakistan. I am self motivated and energatic person who love to explore and learn about new things.
+
+               </p>
+               </article>
+            </section>
+            
+            <section id="professionalexperience">
+               <article>
+              <h2>Professional Experience</h2>
+               <p>
+                Being an emerging Economist my expererience start with coducting small research projects in various topics of  economics during my educational carrer. Ofically I start my carerr as research assisstant.    
+               </p>
+                </article>
+           </section>
+           
+           <section id="skills">
+               <article>
+              <h2> Skills</h2>
+               <p>I am good at working on economic data analysis on a software called E-Views. I can also do descriptive data anaylsis on STATA.
+               </p>
+              </article>  
+           </section>
+           
+           
+        </main> 
+       
+        <footer id="my-footer">
+        Legal
+        </footer>
+       
+   </body> 
+</html>
